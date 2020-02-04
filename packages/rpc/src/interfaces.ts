@@ -1,4 +1,4 @@
-import { Interfaces } from "@arkecosystem/crypto";
+import { Interfaces } from "@tycoon69-labs/crypto";
 
 export interface IRequestParameters {
     jsonrpc: "2.0";

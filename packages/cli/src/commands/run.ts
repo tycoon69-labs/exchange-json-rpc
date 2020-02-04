@@ -1,4 +1,4 @@
-import { start } from "@arkecosystem/exchange-json-rpc";
+import { start } from "@tycoon69-labs/exchange-json-rpc";
 import { CommandFlags } from "../types";
 import { BaseCommand } from "./command";
 

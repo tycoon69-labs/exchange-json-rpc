@@ -1,4 +1,4 @@
-import { Crypto, Identities, Interfaces, Managers } from "@arkecosystem/crypto";
+import { Crypto, Identities, Interfaces, Managers } from "@tycoon69-labs/crypto";
 import wif from "wif";
 import { IWallet } from "../interfaces";
 import { database } from "../services/database";

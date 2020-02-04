@@ -1,7 +1,7 @@
 import "jest-extended";
 
-import { Identities } from "@arkecosystem/crypto";
 import { Server } from "@hapi/hapi";
+import { Identities } from "@tycoon69-labs/crypto";
 import nock from "nock";
 import { createServer, sendRequest } from "../__support__";
 

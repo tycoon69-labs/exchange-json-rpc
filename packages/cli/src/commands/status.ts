@@ -17,7 +17,7 @@ export class StatusCommand extends BaseCommand {
     public static flags: CommandFlags = {
         token: flags.string({
             description: "the name of the token that should be used",
-            default: "ark",
+            default: "tycoon",
         }),
     };
 

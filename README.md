@@ -1,11 +1,11 @@
-# @arkecosystem/exchange-json-rpc
+# @tycoon69-labs/exchange-json-rpc
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/ARKEcosystem/exchange-json-rpc/master/banner.png" />
 </p>
 
-[![Latest Version](https://badgen.now.sh/npm/v/@arkecosystem/exchange-json-rpc)](https://www.npmjs.com/package/@arkecosystem/exchange-json-rpc)
-[![Node Engine](https://badgen.now.sh/npm/node/@arkecosystem/exchange-json-rpc)](https://www.npmjs.com/package/@arkecosystem/exchange-json-rpc)
+[![Latest Version](https://badgen.now.sh/npm/v/@tycoon69-labs/exchange-json-rpc)](https://www.npmjs.com/package/@tycoon69-labs/exchange-json-rpc)
+[![Node Engine](https://badgen.now.sh/npm/node/@tycoon69-labs/exchange-json-rpc)](https://www.npmjs.com/package/@tycoon69-labs/exchange-json-rpc)
 [![Build Status](https://badgen.now.sh/circleci/github/ArkEcosystem/exchange-json-rpc)](https://circleci.com/gh/ArkEcosystem/exchange-json-rpc)
 [![Codecov](https://badgen.now.sh/codecov/c/github/ArkEcosystem/exchange-json-rpc)](https://codecov.io/gh/ArkEcosystem/exchange-json-rpc)
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
@@ -19,7 +19,7 @@ The Exchange JSON-RPC is only maintained for exchanges, as the name suggests. **
 ## Installation
 
 ```bash
-yarn global add @arkecosystem/exchange-json-rpc-cli
+yarn global add @tycoon69-labs/exchange-json-rpc-cli
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ $ exchange-json-rpc
 A JSON-RPC 2.0 specification compliant server for Exchanges to interact with the ARK Blockchain.
 
 VERSION
-  @arkecosystem/exchange-json-rpc-cli/1.0.0 darwin-x64 node-v10.16.0
+  @tycoon69-labs/exchange-json-rpc-cli/1.0.0 darwin-x64 node-v10.16.0
 
 USAGE
   $ exchange-json-rpc [COMMAND]
@@ -62,7 +62,7 @@ exchange-json-rpc start
 | ------------------ | ---------------------------------------------------------------------------- | -------------------------- | -------- |
 | --[no-]allowRemote | allow remote connections which are filtered by a whitelist                   | n/a                        | No       |
 | --network=         | the name of the network that should be used                                  | mainnet                    | No       |
-| --token=           | the name of the token that should be used                                    | ark                        | No       |
+| --token=           | the name of the token that should be used                                    | tycoon                     | No       |
 | --host=            | the host that should be used to expose the RPC                               | 0.0.0.0                    | No       |
 | --port=            | the port that should be used to expose the RPC                               | 8008                       | No       |
 | --peer=            | the peer you want to use for communication, defaults to random network peers | n/a                        | No       |
@@ -101,7 +101,7 @@ exchange-json-rpc run
 | ------------------ | ---------------------------------------------------------------------------- | -------------------------- | -------- |
 | --[no-]allowRemote | allow remote connections which are filtered by a whitelist                   | n/a                        | No       |
 | --network=         | the name of the network that should be used                                  | mainnet                    | No       |
-| --token=           | the name of the token that should be used                                    | ark                        | No       |
+| --token=           | the name of the token that should be used                                    | tycoon                     | No       |
 | --host=            | the host that should be used to expose the RPC                               | 0.0.0.0                    | No       |
 | --port=            | the port that should be used to expose the RPC                               | 8008                       | No       |
 | --peer=            | the peer you want to use for communication, defaults to random network peers | n/a                        | No       |

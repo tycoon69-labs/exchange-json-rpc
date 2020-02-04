@@ -1,5 +1,5 @@
-import { Managers, Types } from "@arkecosystem/crypto";
-import { PeerDiscovery } from "@arkecosystem/peers";
+import { Managers, Types } from "@tycoon69-labs/crypto";
+import { PeerDiscovery } from "@tycoon69-labs/peers";
 import got from "got";
 import isReachable from "is-reachable";
 import sample from "lodash.sample";

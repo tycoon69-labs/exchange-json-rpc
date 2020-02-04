@@ -1,5 +1,5 @@
 {
-    "name": "@arkecosystem/exchange-json-rpc-cli",
+    "name": "@tycoon69-labs/exchange-json-rpc-cli",
     "version": "1.0.6",
     "description": "A JSON-RPC 2.0 specification compliant server for Exchanges to interact with the ARK Blockchain.",
     "license": "MIT",
@@ -12,7 +12,7 @@
     "main": "dist/index",
     "types": "dist/index",
     "bin": {
-        "exchange-json-rpc": "./bin/run"
+        "exchange-json-rpc": "bin/run"
     },
     "scripts": {
         "build": "yarn clean && yarn compile",
@@ -65,9 +65,9 @@
         "watchman": false
     },
     "dependencies": {
-        "@arkecosystem/crypto": "^2.4 || ^2.5",
-        "@arkecosystem/exchange-json-rpc": "^1.0.6",
-        "@arkecosystem/peers": "^0.2.1",
+        "@tycoon69-labs/crypto": "^2.4 || ^2.5",
+        "@tycoon69-labs/exchange-json-rpc": "^1.0.6",
+        "@tycoon69-labs/peers": "^0.2.1",
         "@faustbrian/foreman": "^0.1.3",
         "@oclif/command": "^1.5.14",
         "@oclif/config": "^1.13.0",

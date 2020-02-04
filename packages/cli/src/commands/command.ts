@@ -1,5 +1,5 @@
-import { Networks } from "@arkecosystem/crypto";
 import Command, { flags } from "@oclif/command";
+import { Networks } from "@tycoon69-labs/crypto";
 import cli from "cli-ux";
 import envPaths, { Paths } from "env-paths";
 import { ensureDirSync } from "fs-extra";
@@ -18,7 +18,7 @@ export abstract class BaseCommand extends Command {
         }),
         token: flags.string({
             description: "the name of the token that should be used",
-            default: "ark",
+            default: "tycoon",
         }),
     };
 
@@ -30,7 +30,7 @@ export abstract class BaseCommand extends Command {
         }),
         token: flags.string({
             description: "the name of the token that should be used",
-            default: "ark",
+            default: "tycoon",
         }),
         host: flags.string({
             description: "the host that should be used to expose the RPC",

@@ -1,4 +1,4 @@
-import { Identities, Interfaces, Managers, Transactions, Utils } from "@arkecosystem/crypto";
+import { Identities, Interfaces, Managers, Transactions, Utils } from "@tycoon69-labs/crypto";
 import { notStrictEqual } from "assert";
 import { logger } from "../services/logger";
 import { network } from "../services/network";

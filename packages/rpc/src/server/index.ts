@@ -1,7 +1,7 @@
-import { Types, Validation } from "@arkecosystem/crypto";
 import { Server } from "@hapi/hapi";
 import * as rpc from "@hapist/json-rpc";
 import * as whitelist from "@hapist/whitelist";
+import { Types, Validation } from "@tycoon69-labs/crypto";
 import { logger } from "../services/logger";
 import { network } from "../services/network";
 import { methods } from "./methods";
