@@ -21,7 +21,7 @@
         "test": "jest"
     },
     "dependencies": {
-        "@tycoon69-labs/crypto": "^2.5",
+        "@tycoon69-labs/crypto": "^2.5.27",
         "@hapi/boom": "^9.0.0",
         "@hapi/hapi": "^19.0.0",
         "@hapist/json-rpc": "^0.2.0",

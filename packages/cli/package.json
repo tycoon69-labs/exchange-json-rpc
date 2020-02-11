@@ -1,6 +1,6 @@
 {
     "name": "@tycoon69-labs/exchange-json-rpc-cli",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "A JSON-RPC 2.0 specification compliant server for Exchanges to interact with the ARK Blockchain.",
     "license": "MIT",
     "author": "Brian Faust <brian@ark.io>",
@@ -65,7 +65,7 @@
         "watchman": false
     },
     "dependencies": {
-        "@tycoon69-labs/crypto": "^2.4 || ^2.5",
+        "@tycoon69-labs/crypto": "^2.5.27",
         "@tycoon69-labs/exchange-json-rpc": "^1.0.6",
         "@tycoon69-labs/peers": "^0.2.1",
         "@faustbrian/foreman": "^0.1.3",
