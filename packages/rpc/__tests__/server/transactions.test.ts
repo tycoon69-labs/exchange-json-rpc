@@ -1,8 +1,8 @@
 import "jest-extended";
 
-import { Server } from "@hapi/hapi";
 import { Transactions } from "@tycoon69-labs/crypto";
 import { BigNumber } from "@tycoon69-labs/crypto/dist/utils";
+import { Server } from "@hapi/hapi";
 import { randomBytes } from "crypto";
 import nock from "nock";
 import { createServer, sendRequest } from "../__support__";

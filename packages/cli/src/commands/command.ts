@@ -1,5 +1,5 @@
-import Command, { flags } from "@oclif/command";
 import { Networks } from "@tycoon69-labs/crypto";
+import Command, { flags } from "@oclif/command";
 import cli from "cli-ux";
 import envPaths, { Paths } from "env-paths";
 import { ensureDirSync } from "fs-extra";

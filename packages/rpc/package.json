@@ -1,6 +1,6 @@
 {
     "name": "@tycoon69-labs/exchange-json-rpc",
-    "version": "1.0.6",
+    "version": "2.0.1",
     "description": "A JSON-RPC 2.0 specification compliant server for Exchanges to interact with the ARK Blockchain.",
     "license": "MIT",
     "author": "Brian Faust <brian@ark.io>",
@@ -21,12 +21,13 @@
         "test": "jest"
     },
     "dependencies": {
-        "@tycoon69-labs/crypto": "^2.5.27",
+        "@tycoon69-labs/crypto": "^2.6.13",
+        "@tycoon69-labs/peers": "^0.2.1",
         "@hapi/boom": "^9.0.0",
         "@hapi/hapi": "^19.0.0",
         "@hapist/json-rpc": "^0.2.0",
         "@hapist/whitelist": "^0.1.0",
-        "better-sqlite3": "^5.4.0",
+        "better-sqlite3": "^6.0.0",
         "bip39": "^3.0.2",
         "fs-extra": "^8.0.1",
         "got": "^9.6.0",
@@ -36,7 +37,7 @@
         "pino": "^5.12.6",
         "pino-pretty": "^3.1.0",
         "sql": "^0.78.0",
-        "uuid": "^3.3.2",
+        "uuid": "^7.0.0",
         "wif": "^2.0.6"
     },
     "devDependencies": {
@@ -45,9 +46,9 @@
         "@types/hapi__hapi": "^19.0.0",
         "@types/lodash.sample": "^4.2.6",
         "@types/pino": "^5.20.0",
-        "@types/uuid": "^3.4.4",
+        "@types/uuid": "^7.0.0",
         "@types/wif": "^2.0.1",
-        "nock": "^11.7.0"
+        "nock": "^12.0.0"
     },
     "engines": {
         "node": ">=10.x"
